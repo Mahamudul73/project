@@ -1,0 +1,491 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-header{
+    width: 100%;
+    height: 100vh;
+    background-color: white; 
+}
+.headerr{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    z-index: 12;
+    border-bottom: 2px solid rgb(202, 202, 202);
+}
+.logo{ 
+    position: relative;
+    display: inline;
+    margin-left: 80px;
+}
+.logo img{
+    width: 100px;
+    padding-top: 13px ;
+}
+.menuber{
+    float: right;
+    margin-right: 80px;
+}
+.menuber li{
+    list-style-type: none;
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 20px;
+}
+.menuber li a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    justify-content: space-between;
+}
+.menuber li a:after{
+    content: " ";
+    position: absolute;
+    background-color: red;
+    height: 2px;
+    width: 0px;
+    left: 0;
+    bottom: 25px;
+    transition: 0.3s ease;
+}
+.menuber li a:hover:after{
+    width: 100%;
+}
+.home-text{
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto 0 auto;
+    align-items: center;
+    position: relative;
+    background-color: transparent;
+}
+.home{
+    position: absolute;
+    width: 600px;
+    float: left;
+    background-color: transparent;
+}
+.home-text .home >h2{
+    font-size: 30px;
+    padding-top: 250px;
+    color: orange;
+}
+.home-text .home >h1{
+    font-size: 50px;
+}
+.home-text .home >p{
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.home-text .home >a{
+    color: black;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.home-text .home >a:hover{
+    border: 2px solid red;
+}
+.home-img{
+    width: 550px;
+    height: 500px;
+    background-color: transparent;
+    float: right;
+    margin-top: 200px;;
+}
+.home-img .shoe{
+    float: right;
+    width: 600px;
+    height: 350px;
+    position: relative;
+}
+
+
+/*start about section*/
+.about-section{
+    width: 1200px;
+    height: 500px;
+    background-color: rgb(224, 230, 230);
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+.about{
+    width: 1200px;
+    height: 500px;
+    background-color: transparent;
+    margin: 0 auto 0 auto;
+    align-items: center;
+    position: relative;
+}
+.about >h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+.about span{
+    color: orange;
+}
+.video{
+    float: left;
+}
+#bg-video{
+    width: 550px;
+    margin-top: 50px;
+}
+.about-text{
+    float: right;
+    width: 550px;
+    height: 300px;
+    background-color: transparent;
+    margin-top: 50px;
+}
+.about-text h3{
+    font-size: 20px;
+    margin-left: 10px;
+    color: black;
+    margin-top: 30px;
+}
+.about-text >p{
+    color: black;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.about-text >a{
+    color: black;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.about-text >a:hover{
+    border: 2px solid red;
+}
+/*ffffffffffffffffff*/
+
+
+.delivery{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto 0 auto;
+    align-items: center;
+    background-color: rgb(224, 230, 230);
+    position: relative;
+}
+.div1{
+    width: 383px;
+    height: 200px;
+    background-color: aliceblue;
+    float: left;
+    margin-right: 25px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.div1:hover{
+    background-color: orange;
+}
+.div1 >img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.div1 h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.div1 p{
+    font-size: 16px;
+}
+
+/* start products section*/
+#product{
+    width: 1200px;
+    height: 1000px;
+    background-color: rgb(224, 230, 230);;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+.product >h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;   
+}
+.product span{
+    color: orange;
+}
+.product1{
+    width: 383px;
+    height: 400px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    float: left;
+    margin-right: 25px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.product1:hover{
+    background-color: orange;
+}
+.product1 >img{
+    width: 200px;
+    height: 200px;
+}
+.product1 >h2{
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.product1 >h3{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 40px;
+}
+.product1 >a{
+    color: black;
+    padding: 10px 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.product1 >a:hover{
+    border: 2px solid red;
+}
+
+/* start featured section*/
+.featured{
+    width: 1200px;
+    height: 1650px;
+    background-color: rgb(224, 230, 230);;
+    margin: 0 auto;
+}
+.featured >h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px; 
+}
+.featured span{
+    color: orange;
+}
+
+.featured-1{
+    width: 285px;
+    height: 470px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 25px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.featured-1:hover{
+    background-color: orange;
+}
+.featured-1 >img{
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+}
+.featured-1 >h2{
+    font-size: 25px;
+    color: black;
+    margin-top: 10px;
+}
+.featured-1 >p{
+    font-size: 16px;
+    color: black;
+    padding-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.featured-1 >h3{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.featured-1 a{
+    color: black;
+    padding: 10px 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.featured-1 a:hover{
+    border: 2px solid red;
+}
+/* start review section*/
+
+.review{
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(224, 230, 230);
+    margin: 0 auto;
+}
+.review >h2{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+   
+}
+.review span{
+    color: orange;
+}
+.review-1{
+    width: 383px;
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    margin-right: 25px;
+    transition: all 0.5s ease;
+}
+.review-1:hover{
+    background-color: orange;
+}
+.review-1 >h2{
+    color: black;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.review-1 p{
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.review-1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.star{
+    margin: auto;
+    padding-top: 10px;
+    color: black;
+}
+/* start contact section*/
+.contact{
+    width: 1200px;
+    height: 591px;
+    background-color: rgb(224, 230, 230);;
+    margin: 0 auto;
+    position: relative;
+}
+.contact h2{
+    color: orange;
+    text-align: center;
+    padding-top: 20px;
+}
+.newsletter{
+    width: 1200px;
+    height: 203px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.newsletter h2{
+    color: black;
+    padding-top: 10px;
+}
+.newsletter p{
+    color: black;
+    font-size: 16px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    padding-top: 20px;
+}
+.input-2{
+    width: 600px;
+    height: 50px;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.btn{
+    color: black;
+    padding: 10px 20px;
+    width: 400px;
+    border: 2px solid black;
+}
+.btn-2{
+    width: 100px;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+.social-link{
+    width: 1200px;
+    height: 200px;
+    background-color: aliceblue;
+    margin: 20px auto;
+}
+.link{
+    width: 285px;
+    height: 200px;
+    background-color: transparent;
+    float: left;
+    margin-right: 20px;
+}
+.link img{
+    width: 100px;
+    height: 50px;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+.link h3{
+    padding-top: 30px;
+    margin-left: 20px;
+}
+.link a{
+    display: flex;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.link-2{
+    padding-top: 10px;
+}
+.copy{
+    width: 1200px;
+    height: 80px;
+    background-color: aliceblue;
+    margin: 220px auto;
+    position: absolute;
+}
+.copy h3{
+    color: gray;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 100;
+}
+.copy span{
+    color: rgb(253, 204, 114);
+    text-align: center;
+}
